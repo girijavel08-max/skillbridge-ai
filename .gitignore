@@ -1,0 +1,23 @@
+# Secrets: NEVER commit these
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Project data generated at runtime
+backend/uploads/
+backend/vector_store/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

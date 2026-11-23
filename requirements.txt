@@ -1,0 +1,9 @@
+flask
+flask-cors
+python-dotenv
+flask-sqlalchemy
+pymysql
+cryptography
+flask-jwt-extended
+openai
+pdfplumber
